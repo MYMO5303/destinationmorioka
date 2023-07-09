@@ -21,5 +21,7 @@ I wanted to analyze bigger data like Rakuten's Hotel Detail Search API and find 
 *[Project02_Morioka_hotelsmap.csv](https://github.com/MYMO5303/destinationmorioka/files/11996490/Project02_Morioka_hotelsmap.csv)
 
 ## Notebooks used for analysis:
+http://localhost:8888/notebooks/Project02_Morioka_hotels.ipynb
 
 ## The link
+
