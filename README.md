@@ -15,6 +15,10 @@ I used API and pandas for data collection and analysis for the first time. Using
 ## I tried to do or wanted to do
 I wanted to analyze bigger data like Rakuten's Hotel Detail Search API and find the Onsen(hot spring) information. I also tried to make my webiste look cooler but had not time for that.
 ## Data used for analysis:
+*[marketingdata_outbound.pdf](https://github.com/MYMO5303/destinationmorioka/files/11996494/marketingdata_outbound.pdf)
+*[tabula-marketingdata_outbound.csv](https://github.com/MYMO5303/destinationmorioka/files/11996484/tabula-marketingdata_outbound.csv)
+*[Project02_Morioka_hotelslat&lon.csv](https://github.com/MYMO5303/destinationmorioka/files/11996485/Project02_Morioka_hotelslat.lon.csv)
+*[Project02_Morioka_hotelsmap.csv](https://github.com/MYMO5303/destinationmorioka/files/11996490/Project02_Morioka_hotelsmap.csv)
 
 ## Notebooks used for analysis:
 
