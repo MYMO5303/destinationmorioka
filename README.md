@@ -24,6 +24,6 @@ I wanted to analyze bigger data like Rakuten's Hotel Detail Search API and find 
 http://localhost:8888/notebooks/Project02_Morioka_hotels.ipynb
 
 ## The link
-https://mymo5303.github.io/destinationmorioka/
+https://mymo5303.github.io/project02-destinationmorioka/
 
 
