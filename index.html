@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+<head>  
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta property="og:title" content="Morioka: Hidden Gem Chosen by the New York Times" />
@@ -9,17 +9,16 @@
   <meta property="og:image" content="https://mymo5303.github.io/project01-suicide/23665645_s.jpg" />
   <title>"Morioka: Hidden Gem Chosen by the New York Times"</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" />
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Borel&family=Caprasimo&display=swap" rel="stylesheet">
-
+  <link href="https://fonts.googleapis.com/css2?family=Borel&family=Caprasimo&display=swap" rel="stylesheet" >
 
   <style>
     .container {
       /* Remove the line below if you want a wider page */
       max-width: 700px !important;
     }
-
 
     .row-container {
       display: flex;
@@ -54,6 +53,11 @@
       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
 
+    .credit2 {
+      font-size: medium;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
     .section {
       background-color: white;
     }
@@ -65,6 +69,10 @@
 
     .space {
       padding: 15px;
+    }
+
+    .space2 {
+      padding: 3px;
     }
 
     .title {
@@ -103,7 +111,28 @@
       margin-left: 20px;
       vertical-align: middle;
     }
+
+    .flex{
+    display: flex;
+    justify-content: space-between;
+    }
+
+    .flex>p{
+    width: 49%;
+    }
+
+    .example2 {
+    display: flex;
+    justify-content: space-between;
+    }
+
+    .example2 img {
+    flex-grow: 1;
+    max-width: calc(33.33% - 10px); /* Adjust the width as needed */
+    height: auto;
+    }
   </style>
+
 </head>
 
 <body>
@@ -111,47 +140,51 @@
   <section class="section">
     <div class="container">
       <h class="title">Morioka: Hidden Gem Chosen by the New York Times</h>
-
-      <dif class="">
-
-      </dif>
+        <div class="space2"></div>
 
       <div class="subtitle">Picking Up Accommodations in the City with a Growing Tourist Population</div>
 
       <figure>
-        <img src="岩手山と開運橋②.jpg" alt="Picture that shows Mt. Iwate and the Kaiun Bridge">
+        <img src="Mount Iwate and Kaiun Bridge.jpg" alt="Picture that shows Mt. Iwate and the Kaiun Bridge">
         <figcaption>View of Mt. Iwate and the Kaiun Bridge over the Kitakami River in Morioka |岩手県観光協会</figcaption>
       </figure>
 
-      <div class="content"></div>
+        <div class="space2"></div>
 
-      <p>By Mayumi Oshige | July 7, 2023 |</credit> <a href="https://github.com/MYMO5303/project02-destinationmorioka"
-          target="_blank"><u>Github</u></a></p>
+      <div class="credit">Mayumi Oshige | July 7, 2023 |</credit> <a href="https://github.com/MYMO5303/project02-destinationmorioka"
+          target="_blank"><u>Github</u></a>
+      </div>
 
       <div class="column is multiline">
         <div class="space">
-        </div>
+      </div>
 
         <p>When you think of traveling to Japan, the first tourist destination that comes to mind is probably
           Metropolitan Tokyo, historical and traditional Kyoto or neighboring Osaka. Perhaps, Okinawa which is a resort
-          island known for the U.S. military bases, Hiroshima or Hokkaido if you try your best to think of it.</P>
+          island also known for the U.S. military bases, Hiroshima or Hokkaido if you try your best to think of it.
+        </P>
         <div class="space"></div>
 
         <p>In January this year, the New York Times listed “Morioka” as one of the 52 places in the world to visit in
           2023 second only to London.
+        </p>
         <div class="space"></div>
-        <div class="row-container">
-          <div class="column-container">
-            <figure class="side_image">
-              <figure class="image is-128x128"><img src="IMG_1300.jpg" alt="Drawing image of a foreign tourist visiting Japan"></figure>
-            </figure>
-          </div>
-          <div class="column-container">
-            <p class="side_text"><strong>Morioka? Where is that?</strong> No wonder if you think that way. Even Japanese
-              were surprised by the result because Morioka was rather taken as one of the ordinary mid sized cities that
-              exist all over Japan.</p>
+
+        <div class="container">
+          <div class="columns">
+            <div class="column">
+              <figure class="image is-128x128">
+                <img src="Image of Tourist.jpg" alt="Drawing image of a foreign tourist visiting Japan">
+              </figure>
+            </div>
+            <div class="column">
+              <p><strong>Morioka? Where is that?</strong>No wonder if you think that way. Even Japanese
+                were surprised by the result because Morioka was rather taken as one of the ordinary mid sized cities that
+                exist all over Japan.</p>
+            </div>
           </div>
         </div>
+
         <div class="space"></div>
         <div class="space"></div>
         <div class="space"></div>
@@ -161,7 +194,7 @@
         <p>Morioka is the capital of Iwate Prefecture in northeastern Japan. It has a population of about 300,000 and an
           area of about 900 square kilometers — roughly two-thirds the size of New York City. Winters are cold and
           snowy.</p>
-        <div class="space"></div>
+        <div class="space"></div>       
 
         <div class="chart">
           <iframe title="Morioka is located in northeastern Japan"
@@ -173,19 +206,39 @@
 
           <script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
           </script>
-    
         </div>
         <div class="space"></div>
+
         <p>The New York Times chose Morioka because of its combination of kindness, cuisine, walkability and history.
           (Read the New York Times article for more details). Indeed, Tokyo and Kyoto are so crowded that they are
           tiresome and difficult to walk around.</p>
         <div class="space"></div>
+
+        <div class="container">
+          <div class="example2">
+            <img src="Bank of Iwate.jpg" alt="">
+            <img src="Wanko Soba.jpg" alt="">
+            <img src="Morioka Park Summer.jpg" alt="">
+          </div>
+        </div>
+       <div class="space"></div>
+
         <p>The article made Japanese realize the unknown attractions of Morioka and think of tourism in a different
           light for cities that may have hidden potential instead of being thought of as unattractive to foreigners. As
           a matter of fact, Fukuoka, the city located in Kyushu island in western Japan was also chosen for one of the
           52 places as well.</p>
         <div class="space"></div>
-        <p>According to local Japan News and TBS TV, the number of foreign tourists to Morioka has been slowly
+
+        <div class="container">
+          <div class="example2">
+            <img src="Morioka Fireworks.jpg" alt="">
+            <img src="Reimen.jpg" alt="">
+            <img src="Morioka Park Winter.jpg" alt="">
+          </div>
+        </div>
+
+       <div class="space"></div>
+        <p>According to the local News, the number of foreign tourists to Morioka has been slowly
           increasing after the New York Times article appeared. A new tourist information center was reportedly set up
           in front of Morioka Station. The number of foreign tourists visiting Japan had been growing rapidly before
           Corona. In May, COVID was downgraded to a non-threatening status and visits have been on a recovery trend.</p>
@@ -208,10 +261,16 @@
           4,500 yen, and the hotel review ratings average 4.145 out of 5.</p>
         <div class="space"></div>
         <div class="chart">
-          <iframe title="Hotels are moslty located around the station" aria-label="Locator maps"
+          <iframe src='https://flo.uri.sh/visualisation/14673094/embed' title='Interactive or visual content' 
+           class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:600px;' 
+           sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'>
+           </iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'>
+           <a class='flourish-credit' href='https://public.flourish.studio/visualisation/14673094/?utm_source=embed&utm_campaign=visualisation/14673094' target='_top' style='text-decoration:none!important'>
+           <img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
+          <!-- <iframe title="Hotels are moslty located around the station" aria-label="Locator maps"
             alt="A map that shows the location of hotels in Morioka"
             id="datawrapper-chart-A3ec2" src="https://datawrapper.dwcdn.net/A3ec2/4/" scrolling="no" frameborder="0"
-            style="width: 0; min-width: 100% !important; border: none;" height="562" data-external="1"></iframe>
+            style="width: 0; min-width: 100% !important; border: none;" height="562" data-external="1"></iframe> -->
           <script type="text/javascript">!function () { "use strict"; window.addEventListener("message", (function (a) { if (void 0 !== a.data["datawrapper-height"]) { var e = document.querySelectorAll("iframe"); for (var t in a.data["datawrapper-height"]) for (var r = 0; r < e.length; r++)if (e[r].contentWindow === a.source) { var i = a.data["datawrapper-height"][t] + "px"; e[r].style.height = i } } })) }();
           </script>
         </div>
@@ -220,9 +279,10 @@
           again for shining a light on Morioka's charms and giving it a high rating. We will continue to make every
           effort to ensure that Morioka remains an attractive city”.</p>
         <div class="space"></div>
-        <p>This article was written by Mayumi Oshige and the drawing is by Elizabeth Dempsey. If you have any
+
+        <div class="credit2">This article was written by Mayumi Oshige and the drawing is by Elizabeth Dempsey. If you have any
           questions, contact me at  <a href="mailtp:mayumioshige@gmail.com">mayumioshige@gmail.com</a>
-        </p>
+        </div>
         <div class="space"></div>
         <div class="space"></div>
         <div class="space"></div>
@@ -231,8 +291,6 @@
 
       </div>
     </div>
-    </div>
   </section>
 </body>
-
 </html>
