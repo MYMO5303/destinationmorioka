@@ -12,35 +12,19 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Borel&family=Caprasimo&display=swap" rel="stylesheet" >
+  <link href="https://fonts.googleapis.com/css2?family=Borel&family=Lato&display=swap" rel="stylesheet">
 
   <style>
     .container {
-      /* Remove the line below if you want a wider page */
       max-width: 700px !important;
     }
 
-    .row-container {
-      display: flex;
-      flex-direction: row;
-      width: 100%;
-      gap: 2em;
-      padding-bottom: 20;
+    .title {
+      font-family: 'Borel', cursive;
     }
 
-    .column-container {
-      flex-grow: 1;
-    }
-
-    @media (max-width: 700px) {
-      .row-container {
-        flex-direction: column;
-      }
-    }
-
-
-    h {
-      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    .subtitle {
+      font-family: 'Lato', sans-serif;
     }
 
     p {
@@ -50,12 +34,7 @@
 
     .credit {
       font-size: medium;
-      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    }
-
-    .credit2 {
-      font-size: medium;
-      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-family: 'Lato', sans-serif;
     }
 
     .section {
@@ -67,26 +46,9 @@
       padding: 15px;
     }
 
-    .space {
-      padding: 15px;
-    }
-
-    .space2 {
-      padding: 3px;
-    }
-
-    .title {
-      font-family: 'Borel', cursive;
-    }
-
-    .subtitle {
-      color: black;
-      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    }
-
     img {
       display: block;
-      width: 700px;
+      width: 100%;
       margin: 0 auto;
       transition: 0.3s;
     }
@@ -96,42 +58,23 @@
       text-decoration: underline;
     }
 
-    .subhead {
-      font-weight: bold;
-      font-size: 20px;
-    }
-
-    figure.side_image {
-      display: inline-block;
-    }
-
-    p.side_text {
-      display: inline-block;
-      width: 450px;
-      margin-left: 20px;
-      vertical-align: middle;
-    }
-
-    .flex{
-    display: flex;
-    justify-content: space-between;
-    }
-
-    .flex>p{
-    width: 49%;
-    }
-
     .example2 {
-    display: flex;
-    justify-content: space-between;
+      display: flex;
+      justify-content: space-between;
     }
 
     .example2 img {
-    flex-grow: 1;
-    max-width: calc(33.33% - 10px); /* Adjust the width as needed */
-    height: auto;
+      flex-grow: 1;
+      max-width: calc(33.33% - 10px);
+      height: auto;
     }
+
+    .space {
+      padding: 20px;
+    }
+
   </style>
+
 
 </head>
 
@@ -139,17 +82,13 @@
 
   <section class="section">
     <div class="container">
-      <h class="title">Morioka: Hidden Gem Chosen by the New York Times</h>
-        <div class="space2"></div>
-
+      <h1 class="title">Morioka: Hidden Gem Chosen by the New York Times</h1>
       <div class="subtitle">Picking Up Accommodations in the City with a Growing Tourist Population</div>
 
       <figure>
         <img src="Mount Iwate and Kaiun Bridge.jpg" alt="Picture that shows Mt. Iwate and the Kaiun Bridge">
         <figcaption>View of Mt. Iwate and the Kaiun Bridge over the Kitakami River in Morioka |岩手県観光協会</figcaption>
       </figure>
-
-        <div class="space2"></div>
 
       <div class="credit">Mayumi Oshige | July 7, 2023 |</credit> <a href="https://github.com/MYMO5303/project02-destinationmorioka"
           target="_blank"><u>Github</u></a>
@@ -171,31 +110,26 @@
         <div class="space"></div>
 
         <div class="container">
-          <div class="columns">
-            <div class="column">
-              <figure class="image is-128x128">
-                <img src="Image of Tourist.jpg" alt="Drawing image of a foreign tourist visiting Japan">
-              </figure>
-            </div>
-            <div class="column">
-              <p><strong>Morioka? Where is that? </strong>No wonder if you think that way. Even Japanese
-                were surprised by the result because Morioka was rather taken as one of the ordinary mid sized cities that
-                exist all over Japan.</p>
+          <div class="column">
+            <figure class="image is-128x128" style="float: left; margin-right: 15px;">
+              <img src="Image of Tourist.jpg" alt="Drawing image of a foreign tourist visiting Japan">
+            </figure>
+            <div style="overflow: hidden;">
+              <p style="margin-bottom: 30px;">
+                <strong>Morioka? Where is that?</strong>
+              </p>
+              <p style="margin-bottom: 30px;">
+                No wonder if you think that way. Even Japanese were surprised by the result because 
+                Morioka was rather taken as one of the ordinary mid-sized cities that exist all over Japan.
+              </p>
+              <p style="margin-bottom: 30px;">
+                Morioka is the capital of Iwate Prefecture in northeastern Japan. 
+                It has a population of about 300,000 and an area of about 900 square kilometers
+                 — roughly two-thirds the size of New York City. Winters are cold and snowy.
+              </p>
             </div>
           </div>
-        </div>
-
-        <div class="space"></div>
-        <div class="space"></div>
-        <div class="space"></div>
-        <div class="space"></div>
-        <div class="space"></div>
-        <div class="space"></div>
-        <p>Morioka is the capital of Iwate Prefecture in northeastern Japan. It has a population of about 300,000 and an
-          area of about 900 square kilometers — roughly two-thirds the size of New York City. Winters are cold and
-          snowy.</p>
-        <div class="space"></div>       
-
+        </div> 
         <div class="chart">
           <iframe title="Morioka is located in northeastern Japan"
           alt="A Japan map with the points of loaction of Morioka, Tokyo, Kyoto, Osaka, Hiroshima and Hokkaido"
@@ -283,12 +217,6 @@
         <div class="credit">This article was written by Mayumi Oshige and the drawing is by Elizabeth Dempsey. If you have any
           questions, contact me at  <a href="mailtp:mayumioshige@gmail.com">mayumioshige@gmail.com</a>
         </div>
-        <div class="space"></div>
-        <div class="space"></div>
-        <div class="space"></div>
-        <div class="space"></div>
-        <div class="space"></div>
-
       </div>
     </div>
   </section>
